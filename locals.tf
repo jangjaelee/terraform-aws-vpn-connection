@@ -1,8 +1,8 @@
 locals {
   common_tags = {
-    "aws.cloud/platform" = "Terraform_Platform"
-    "aws.cloud/platform_env" = var.env
-    "aws.cloud/managed_by" = "terraform"
-    "aws.cloud/module" = "vpn_connection"
+    "cloud/platform" = "AWS"
+    "cloud/platform_env" = var.env
+    "cloud/managed_by" = "terraform"
+    "cloud/module" = "vpn_connection"
   }
 }
